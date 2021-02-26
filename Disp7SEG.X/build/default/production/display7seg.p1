@@ -1,10 +1,35 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"1602 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 1602: extern volatile unsigned char TRISD __attribute__((address(0x088)));
-[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
-"352
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 352: extern volatile unsigned char PORTD __attribute__((address(0x008)));
-[v _PORTD `Vuc ~T0 @X0 0 e@8 ]
+"3449 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 3449: extern volatile unsigned char ANSELH __attribute__((address(0x189)));
+[v _ANSELH `Vuc ~T0 @X0 0 e@393 ]
+"1478
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 1478: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"228
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 228: extern volatile unsigned char PORTB __attribute__((address(0x006)));
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"1608
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 1608:     struct {
+[s S59 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S59 . TRISD0 TRISD1 TRISD2 TRISD3 TRISD4 TRISD5 TRISD6 TRISD7 ]
+"1607
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 1607: typedef union {
+[u S58 `S59 1 ]
+[n S58 . . ]
+"1619
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 1619: extern volatile TRISDbits_t TRISDbits __attribute__((address(0x088)));
+[v _TRISDbits `VS58 ~T0 @X0 0 e@136 ]
+"358
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 358:     struct {
+[s S12 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S12 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+"357
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 357: typedef union {
+[u S11 `S12 1 ]
+[n S11 . . ]
+"369
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 369: extern volatile PORTDbits_t PORTDbits __attribute__((address(0x008)));
+[v _PORTDbits `VS11 ~T0 @X0 0 e@8 ]
 "54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 54: __asm("INDF equ 00h");
 [; <" INDF equ 00h ;# ">
@@ -239,41 +264,141 @@ Version 4.0 HI-TECH Software Intermediate Code
 "3546
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 3546: __asm("EECON2 equ 018Dh");
 [; <" EECON2 equ 018Dh ;# ">
-"11 display7seg.c
-[; ;display7seg.c: 11: void display7seg_init ( void )
-[v _display7seg_init `(v ~T0 @X0 1 ef ]
+"5 ./config.h
+[p x FOSC = INTRC_NOCLKOUT ]
+"6
+[p x WDTE = OFF ]
+"7
+[p x PWRTE = OFF ]
+"8
+[p x MCLRE = OFF ]
+"9
+[p x CP = OFF ]
+"10
+[p x CPD = OFF ]
+"11
+[p x BOREN = OFF ]
 "12
-[; ;display7seg.c: 12: {
+[p x IESO = OFF ]
+"13
+[p x FCMEN = OFF ]
+"14
+[p x LVP = OFF ]
+"17
+[p x BOR4V = BOR40V ]
+"18
+[p x WRT = OFF ]
+"12 display7seg.c
+[; ;display7seg.c: 12: char vetor[16] = { 0x3F, 0x06, 0x5B, 0x4F,
+[v _vetor `uc ~T0 @X0 -> 16 `i e ]
+[i _vetor
+:U ..
+-> -> 63 `i `uc
+-> -> 6 `i `uc
+-> -> 91 `i `uc
+-> -> 79 `i `uc
+-> -> 102 `i `uc
+-> -> 109 `i `uc
+-> -> 125 `i `uc
+-> -> 7 `i `uc
+-> -> 127 `i `uc
+-> -> 111 `i `uc
+-> -> 119 `i `uc
+-> -> 124 `i `uc
+-> -> 57 `i `uc
+-> -> 94 `i `uc
+-> -> 121 `i `uc
+-> -> 113 `i `uc
+..
+]
+"17
+[; ;display7seg.c: 17: void display7seg_init ( void )
+[v _display7seg_init `(v ~T0 @X0 1 ef ]
+"18
+[; ;display7seg.c: 18: {
 {
 [e :U _display7seg_init ]
 [f ]
-"13
-[; ;display7seg.c: 13:     TRISD = 0x00;
-[e = _TRISD -> -> 0 `i `uc ]
-"14
-[; ;display7seg.c: 14:     PORTD = 0x00;
-[e = _PORTD -> -> 0 `i `uc ]
-"15
-[; ;display7seg.c: 15: }
+"19
+[; ;display7seg.c: 19:     ANSELH = 0;
+[e = _ANSELH -> -> 0 `i `uc ]
+"20
+[; ;display7seg.c: 20:     TRISB = 0x00;
+[e = _TRISB -> -> 0 `i `uc ]
+"21
+[; ;display7seg.c: 21:     PORTB = 0x00;
+[e = _PORTB -> -> 0 `i `uc ]
+"22
+[; ;display7seg.c: 22: }
 [e :UE 138 ]
 }
-"17
-[; ;display7seg.c: 17: void display7seg ( int c )
+"24
+[; ;display7seg.c: 24: void display7seg ( int c )
 [v _display7seg `(v ~T0 @X0 1 ef1`i ]
-"18
-[; ;display7seg.c: 18: {
+"25
+[; ;display7seg.c: 25: {
 {
 [e :U _display7seg ]
-"17
-[; ;display7seg.c: 17: void display7seg ( int c )
+"24
+[; ;display7seg.c: 24: void display7seg ( int c )
 [v _c `i ~T0 @X0 1 r1 ]
-"18
-[; ;display7seg.c: 18: {
+"25
+[; ;display7seg.c: 25: {
 [f ]
-"19
-[; ;display7seg.c: 19:     PORTD = c;
-[e = _PORTD -> _c `uc ]
-"20
-[; ;display7seg.c: 20: }
+"26
+[; ;display7seg.c: 26:     PORTB = vetor[c];
+[e = _PORTB -> *U + &U _vetor * -> -> _c `ui `ux -> -> # *U &U _vetor `ui `ux `uc ]
+"27
+[; ;display7seg.c: 27: }
 [e :UE 139 ]
+}
+"29
+[; ;display7seg.c: 29: void botoes ( void )
+[v _botoes `(v ~T0 @X0 1 ef ]
+"30
+[; ;display7seg.c: 30: {
+{
+[e :U _botoes ]
+[f ]
+"31
+[; ;display7seg.c: 31:     TRISDbits.TRISD3 = 1;
+[e = . . _TRISDbits 0 3 -> -> 1 `i `uc ]
+"32
+[; ;display7seg.c: 32:     TRISDbits.TRISD2 = 1;
+[e = . . _TRISDbits 0 2 -> -> 1 `i `uc ]
+"33
+[; ;display7seg.c: 33: }
+[e :UE 140 ]
+}
+"35
+[; ;display7seg.c: 35: int botao1 ( void )
+[v _botao1 `(i ~T0 @X0 1 ef ]
+"36
+[; ;display7seg.c: 36: {
+{
+[e :U _botao1 ]
+[f ]
+"37
+[; ;display7seg.c: 37:     return ( PORTDbits.RD3 );
+[e ) -> . . _PORTDbits 0 3 `i ]
+[e $UE 141  ]
+"38
+[; ;display7seg.c: 38: }
+[e :UE 141 ]
+}
+"40
+[; ;display7seg.c: 40: int botao0 ( void )
+[v _botao0 `(i ~T0 @X0 1 ef ]
+"41
+[; ;display7seg.c: 41: {
+{
+[e :U _botao0 ]
+[f ]
+"42
+[; ;display7seg.c: 42:     return ( PORTDbits.RD2 );
+[e ) -> . . _PORTDbits 0 2 `i ]
+[e $UE 142  ]
+"43
+[; ;display7seg.c: 43: }
+[e :UE 142 ]
 }

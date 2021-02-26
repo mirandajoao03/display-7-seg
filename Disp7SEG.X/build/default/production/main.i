@@ -2535,26 +2535,54 @@ void delay ( int t );
 
 void display7seg_init ( void );
 void display7seg ( int c );
+void botoes ( void );
+int botao1 ( void );
+int botao0 ( void );
 # 12 "main.c" 2
 
-
-char vetor[16] = { 0x3F, 0x06, 0x5B, 0x4F,
-                   0x66, 0x6D, 0x7D, 0x07,
-                   0x7F, 0x6F, 0x77, 0x7C,
-                   0x39, 0x5E, 0x79, 0x71 };
 
 void main(void)
 {
     int cont = 0;
+    char estado = 0;
     display7seg_init();
+    botoes();
 
     while ( 1 )
     {
-                display7seg( vetor[cont] );
-                delay ( 1000 );
-                cont++;
-                if ( cont >= 16 )
-                    cont = 0;
-    }
+        switch ( estado )
+        {
+            case 0:
+                    if( botao1() == 1 )
+                        estado = 1;
+                    if( botao0() == 1)
+                        estado = 3;
+                    break;
+            case 1:
+                    if ( botao1() == 0 )
+                        estado = 2;
+                    break;
+            case 2:
+                    ++cont;
+                    estado = 0;
+                    break;
+            case 3:
+                if ( botao0() == 0 )
+                    estado = 4;
+                    break;
+            case 4:
+                    ++cont;
+                    estado = 0;
+                    break;
+        }
+        display7seg( cont );
+
+        if ( cont >= 10 )
+            cont = 0;
+
+        if ( cont < 0 )
+            cont = 9;
+        }
+
 
 }

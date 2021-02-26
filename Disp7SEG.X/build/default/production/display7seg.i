@@ -2501,14 +2501,57 @@ extern __bank0 __bit __timeout;
 # 27 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.00\\pic\\include\\xc.h" 2 3
 # 9 "display7seg.c" 2
 
+# 1 "./config.h" 1
+
+
+
+
+#pragma config FOSC = INTRC_NOCLKOUT
+#pragma config WDTE = OFF
+#pragma config PWRTE = OFF
+#pragma config MCLRE = OFF
+#pragma config CP = OFF
+#pragma config CPD = OFF
+#pragma config BOREN = OFF
+#pragma config IESO = OFF
+#pragma config FCMEN = OFF
+#pragma config LVP = OFF
+
+
+#pragma config BOR4V = BOR40V
+#pragma config WRT = OFF
+# 10 "display7seg.c" 2
+
+
+char vetor[16] = { 0x3F, 0x06, 0x5B, 0x4F,
+                   0x66, 0x6D, 0x7D, 0x07,
+                   0x7F, 0x6F, 0x77, 0x7C,
+                   0x39, 0x5E, 0x79, 0x71 };
 
 void display7seg_init ( void )
 {
-    TRISD = 0x00;
-    PORTD = 0x00;
+    ANSELH = 0;
+    TRISB = 0x00;
+    PORTB = 0x00;
 }
 
 void display7seg ( int c )
 {
-    PORTD = c;
+    PORTB = vetor[c];
+}
+
+void botoes ( void )
+{
+    TRISDbits.TRISD3 = 1;
+    TRISDbits.TRISD2 = 1;
+}
+
+int botao1 ( void )
+{
+    return ( PORTDbits.RD3 );
+}
+
+int botao0 ( void )
+{
+    return ( PORTDbits.RD2 );
 }

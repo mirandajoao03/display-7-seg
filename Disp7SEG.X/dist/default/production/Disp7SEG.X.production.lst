@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V2.00 build -1524193055 
-                                                                                               Fri Feb 26 16:41:26 2021
+                                                                                               Fri Feb 26 16:44:10 2021
 
 Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 20180527130849
      1  0000                     
@@ -835,7 +835,7 @@ Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 201805271
    773                           __CFG_BOR4V$BOR40V equ 0x0
    774  0000                     global __CFG_WRT$OFF
    775                           __CFG_WRT$OFF equ 0x0
-   776  0000                     	file	"C:\Users\20185561\AppData\Local\Temp\sal4."
+   776  0000                     	file	"C:\Users\20185561\AppData\Local\Temp\sc4k."
    777                           	line	#
    778                           psect cinit,class=CODE,delta=2
    779                           global start_initialization
@@ -851,7 +851,7 @@ Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 201805271
    789                           _vetor:
    790  0020                            ds      16
    791  0020                     
-   792                           	file	"C:\Users\20185561\AppData\Local\Temp\sal4."
+   792                           	file	"C:\Users\20185561\AppData\Local\Temp\sc4k."
    793                           	line	#
    794                           global btemp
    795                           psect inittext,class=CODE,delta=2
@@ -1268,13 +1268,13 @@ Microchip Technology Omniscient Code Generator v2.00 (Free mode) build 201805271
   1206  07A5                     	line	44
   1207                           	
   1208                           l775:	
-  1209  07A5                     ;main.c: 44:                     ++cont;
-  1210                           	movlw	01h
-  1211  07A5  3001               	addwf	(main@cont),f
+  1209  07A5                     ;main.c: 44:                     --cont;
+  1210                           	movlw	0FFh
+  1211  07A5  30FF               	addwf	(main@cont),f
   1212  07A6  07F8               	skipnc
   1213  07A7  1803               	incf	(main@cont+1),f
-  1214  07A8  0AF9               	movlw	0
-  1215  07A9  3000               	addwf	(main@cont+1),f
+  1214  07A8  0AF9               	movlw	0FFh
+  1215  07A9  30FF               	addwf	(main@cont+1),f
   1216  07AA  07F9               	line	45
   1217                           	
   1218                           l777:	
@@ -1884,7 +1884,7 @@ EEDATA             100      0       0       0        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.00 build -1524193055 
-Symbol Table                                                                                   Fri Feb 26 16:41:26 2021
+Symbol Table                                                                                   Fri Feb 26 16:44:10 2021
 
              ?_display7seg 0070                          pc 0002                __CFG_CP$OFF 0000  
                        l30 078B                         l31 078C                         l23 075B  

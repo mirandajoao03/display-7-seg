@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\20185561\AppData\Local\Temp\sal4.o
+$C:\Users\20185561\AppData\Local\Temp\sc4k.o
 end_init CODE 0 0 0 3 2
 config CONFIG 0 2007 2007 2 2
 $dist/default/production\Disp7SEG.X.production.o
@@ -72,21 +72,21 @@ STRING 800-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Disp7SEG.X.production.o
-7EE cinit CODE >781:C:\Users\20185561\AppData\Local\Temp\sal4.
-7EE cinit CODE >784:C:\Users\20185561\AppData\Local\Temp\sal4.
-7EE cinit CODE >825:C:\Users\20185561\AppData\Local\Temp\sal4.
-7EF cinit CODE >826:C:\Users\20185561\AppData\Local\Temp\sal4.
-7F0 cinit CODE >827:C:\Users\20185561\AppData\Local\Temp\sal4.
-7F1 cinit CODE >828:C:\Users\20185561\AppData\Local\Temp\sal4.
-7F2 cinit CODE >829:C:\Users\20185561\AppData\Local\Temp\sal4.
-7F3 cinit CODE >830:C:\Users\20185561\AppData\Local\Temp\sal4.
-7F4 cinit CODE >831:C:\Users\20185561\AppData\Local\Temp\sal4.
-7F5 cinit CODE >832:C:\Users\20185561\AppData\Local\Temp\sal4.
-7F6 cinit CODE >833:C:\Users\20185561\AppData\Local\Temp\sal4.
-7F7 cinit CODE >834:C:\Users\20185561\AppData\Local\Temp\sal4.
-7FC cinit CODE >840:C:\Users\20185561\AppData\Local\Temp\sal4.
-7FC cinit CODE >842:C:\Users\20185561\AppData\Local\Temp\sal4.
-7FD cinit CODE >843:C:\Users\20185561\AppData\Local\Temp\sal4.
+7EE cinit CODE >781:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7EE cinit CODE >784:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7EE cinit CODE >825:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7EF cinit CODE >826:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7F0 cinit CODE >827:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7F1 cinit CODE >828:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7F2 cinit CODE >829:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7F3 cinit CODE >830:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7F4 cinit CODE >831:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7F5 cinit CODE >832:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7F6 cinit CODE >833:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7F7 cinit CODE >834:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7FC cinit CODE >840:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7FC cinit CODE >842:C:\Users\20185561\AppData\Local\Temp\sc4k.
+7FD cinit CODE >843:C:\Users\20185561\AppData\Local\Temp\sc4k.
 70D text5 CODE >40:C:\Users\20185561\MPLABXProjects\display-7-seg\Disp7SEG.X\display7seg.c
 70D text5 CODE >42:C:\Users\20185561\MPLABXProjects\display-7-seg\Disp7SEG.X\display7seg.c
 71A text5 CODE >43:C:\Users\20185561\MPLABXProjects\display-7-seg\Disp7SEG.X\display7seg.c
@@ -142,23 +142,23 @@ $dist/default/production\Disp7SEG.X.production.o
 7E4 maintext CODE >54:C:\Users\20185561\MPLABXProjects\display-7-seg\Disp7SEG.X\main.c
 7EA maintext CODE >55:C:\Users\20185561\MPLABXProjects\display-7-seg\Disp7SEG.X\main.c
 7EB maintext CODE >58:C:\Users\20185561\MPLABXProjects\display-7-seg\Disp7SEG.X\main.c
-73A inittext CODE >799:C:\Users\20185561\AppData\Local\Temp\sal4.
-73A inittext CODE >800:C:\Users\20185561\AppData\Local\Temp\sal4.
-73B inittext CODE >801:C:\Users\20185561\AppData\Local\Temp\sal4.
-73C inittext CODE >802:C:\Users\20185561\AppData\Local\Temp\sal4.
-73D inittext CODE >803:C:\Users\20185561\AppData\Local\Temp\sal4.
-73E inittext CODE >810:C:\Users\20185561\AppData\Local\Temp\sal4.
-73E inittext CODE >811:C:\Users\20185561\AppData\Local\Temp\sal4.
-743 inittext CODE >812:C:\Users\20185561\AppData\Local\Temp\sal4.
-744 inittext CODE >813:C:\Users\20185561\AppData\Local\Temp\sal4.
-745 inittext CODE >814:C:\Users\20185561\AppData\Local\Temp\sal4.
-746 inittext CODE >815:C:\Users\20185561\AppData\Local\Temp\sal4.
-747 inittext CODE >816:C:\Users\20185561\AppData\Local\Temp\sal4.
-748 inittext CODE >817:C:\Users\20185561\AppData\Local\Temp\sal4.
-749 inittext CODE >818:C:\Users\20185561\AppData\Local\Temp\sal4.
-74A inittext CODE >819:C:\Users\20185561\AppData\Local\Temp\sal4.
-74B inittext CODE >820:C:\Users\20185561\AppData\Local\Temp\sal4.
-74C inittext CODE >821:C:\Users\20185561\AppData\Local\Temp\sal4.
+73A inittext CODE >799:C:\Users\20185561\AppData\Local\Temp\sc4k.
+73A inittext CODE >800:C:\Users\20185561\AppData\Local\Temp\sc4k.
+73B inittext CODE >801:C:\Users\20185561\AppData\Local\Temp\sc4k.
+73C inittext CODE >802:C:\Users\20185561\AppData\Local\Temp\sc4k.
+73D inittext CODE >803:C:\Users\20185561\AppData\Local\Temp\sc4k.
+73E inittext CODE >810:C:\Users\20185561\AppData\Local\Temp\sc4k.
+73E inittext CODE >811:C:\Users\20185561\AppData\Local\Temp\sc4k.
+743 inittext CODE >812:C:\Users\20185561\AppData\Local\Temp\sc4k.
+744 inittext CODE >813:C:\Users\20185561\AppData\Local\Temp\sc4k.
+745 inittext CODE >814:C:\Users\20185561\AppData\Local\Temp\sc4k.
+746 inittext CODE >815:C:\Users\20185561\AppData\Local\Temp\sc4k.
+747 inittext CODE >816:C:\Users\20185561\AppData\Local\Temp\sc4k.
+748 inittext CODE >817:C:\Users\20185561\AppData\Local\Temp\sc4k.
+749 inittext CODE >818:C:\Users\20185561\AppData\Local\Temp\sc4k.
+74A inittext CODE >819:C:\Users\20185561\AppData\Local\Temp\sc4k.
+74B inittext CODE >820:C:\Users\20185561\AppData\Local\Temp\sc4k.
+74C inittext CODE >821:C:\Users\20185561\AppData\Local\Temp\sc4k.
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -182,22 +182,22 @@ __HidataBANK0 0 0 ABS 0 idataBANK0 -
 __size_of_display7seg 0 0 ABS 0 - dist/default/production\Disp7SEG.X.production.o
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __Hstrings 0 0 ABS 0 strings -
-___sp 0 0 STACK 2 stack C:\Users\20185561\AppData\Local\Temp\sal4.o
+___sp 0 0 STACK 2 stack C:\Users\20185561\AppData\Local\Temp\sc4k.o
 _main E9A 0 CODE 0 maintext dist/default/production\Disp7SEG.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\Disp7SEG.X.production.o
-start 0 0 CODE 0 init C:\Users\20185561\AppData\Local\Temp\sal4.o
+start 0 0 CODE 0 init C:\Users\20185561\AppData\Local\Temp\sc4k.o
 __CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\Disp7SEG.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\Disp7SEG.X.production.o
 __LidataBANK0 0 0 ABS 0 idataBANK0 -
 __Hpowerup 0 0 CODE 0 powerup -
 ?_botao0 70 0 COMMON 1 cstackCOMMON dist/default/production\Disp7SEG.X.production.o
 ?_botao1 70 0 COMMON 1 cstackCOMMON dist/default/production\Disp7SEG.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\20185561\AppData\Local\Temp\sal4.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\20185561\AppData\Local\Temp\sal4.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\20185561\AppData\Local\Temp\sal4.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\20185561\AppData\Local\Temp\sal4.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\20185561\AppData\Local\Temp\sal4.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\20185561\AppData\Local\Temp\sal4.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\20185561\AppData\Local\Temp\sc4k.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\20185561\AppData\Local\Temp\sc4k.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\20185561\AppData\Local\Temp\sc4k.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\20185561\AppData\Local\Temp\sc4k.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\20185561\AppData\Local\Temp\sc4k.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\20185561\AppData\Local\Temp\sc4k.o
 wtemp0 7E 0 ABS 0 - dist/default/production\Disp7SEG.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 __Hclrtext 0 0 ABS 0 clrtext -
@@ -211,7 +211,7 @@ __CFG_MCLRE$OFF 0 0 ABS 0 - dist/default/production\Disp7SEG.X.production.o
 start_initialization FDC 0 CODE 0 cinit dist/default/production\Disp7SEG.X.production.o
 _TRISDbits 88 0 ABS 0 - dist/default/production\Disp7SEG.X.production.o
 _display7seg DF4 0 CODE 0 text2 dist/default/production\Disp7SEG.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\20185561\AppData\Local\Temp\sal4.o
+___int_sp 0 0 STACK 2 stack C:\Users\20185561\AppData\Local\Temp\sc4k.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -258,7 +258,7 @@ _botao1 E36 0 CODE 0 text4 dist/default/production\Disp7SEG.X.production.o
 _botoes DEA 0 CODE 0 text3 dist/default/production\Disp7SEG.X.production.o
 __CFG_FOSC$INTRC_NOCLKOUT 0 0 ABS 0 - dist/default/production\Disp7SEG.X.production.o
 __Lintentry 0 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\20185561\AppData\Local\Temp\sal4.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\20185561\AppData\Local\Temp\sc4k.o
 __pdataBANK0 20 0 BANK0 1 dataBANK0 dist/default/production\Disp7SEG.X.production.o
 __size_of_botao0 0 0 ABS 0 - dist/default/production\Disp7SEG.X.production.o
 __size_of_botao1 0 0 ABS 0 - dist/default/production\Disp7SEG.X.production.o
@@ -271,8 +271,8 @@ __CFG_CP$OFF 0 0 ABS 0 - dist/default/production\Disp7SEG.X.production.o
 __CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\Disp7SEG.X.production.o
 __Hinittext 0 0 ABS 0 inittext -
 main@cont 78 0 COMMON 1 cstackCOMMON dist/default/production\Disp7SEG.X.production.o
-stackhi 0 0 ABS 0 - C:\Users\20185561\AppData\Local\Temp\sal4.o
-stacklo 0 0 ABS 0 - C:\Users\20185561\AppData\Local\Temp\sal4.o
+stackhi 0 0 ABS 0 - C:\Users\20185561\AppData\Local\Temp\sc4k.o
+stacklo 0 0 ABS 0 - C:\Users\20185561\AppData\Local\Temp\sc4k.o
 __CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\Disp7SEG.X.production.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -

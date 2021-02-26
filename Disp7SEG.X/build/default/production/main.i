@@ -2571,7 +2571,7 @@ void main(void)
                     estado = 4;
                     break;
             case 4:
-                    ++cont;
+                    --cont;
                     estado = 0;
                     break;
         }

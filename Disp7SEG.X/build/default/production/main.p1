@@ -370,8 +370,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 43:             case 4:
 [e :U 152 ]
 "44
-[; ;main.c: 44:                     ++cont;
-[e =+ _cont -> 1 `i ]
+[; ;main.c: 44:                     --cont;
+[e =- _cont -> 1 `i ]
 "45
 [; ;main.c: 45:                     estado = 0;
 [e = _estado -> -> 0 `i `uc ]
